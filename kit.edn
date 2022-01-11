@@ -1,0 +1,8 @@
+{:full-name "org.ninerian/graal-test"
+ :ns-name   "org.ninerian.graal-test"
+ :sanitized "org/ninerian/graal_test"
+ :name      "graal-test"
+ :modules   {:root         "modules"
+             :repositories [{:url  "https://github.com/kit-clj/modules.git"
+                             :tag  "master"
+                             :name "kit-modules"}]}}
